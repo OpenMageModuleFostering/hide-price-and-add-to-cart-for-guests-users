@@ -1,28 +1,50 @@
 <?xml version="1.0"?>
 <package>
     <name>Hide-Price-and-Add-to-Cart-for-Guests-Users</name>
-    <version>0.1.0</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
-    <license>Open Software License (OSL)</license>
+    <license>OSL v1.0</license>
     <channel>community</channel>
     <extends/>
-    <summary>Online store owners often have a need no price on product page or hide price if not logged in on the detail pages for a wide range of reasons including when a product price is not fixed or needs to be quoted based on specifications and so on. The Hideprice extension provides functionality to globally hide price for guest user with simple solution</summary>
-    <description>Price Hide extension is the most comprehensive &amp;amp; customizable  extension to hide product prices and Add to cart from guests, visitors, customers based on store's business requirements. Hide price extension is fully loaded with add-on functionalities like "Call for price", "Hide add to cart button" to manage products in faster, reliable manner. Price Hide extension allows store owners to define custom messages to personalize the shopping flow.&#xD;
-Disable "Add to cart" button&#xD;
-Apply to one or more product and categories&#xD;
-Display a message instead of the button&#xD;
-Customized as per your needs.</description>
-    <notes>Compatible with  1.5, 1.6, 1.6.1, 1.6.2.0, 1.7, 1.8, 1.8.1, 1.9.&#xD;
-The latest upgrade version of Hideprice for Guest Users includes the following features:&#xD;
-Disable "Add to cart" button&#xD;
-Apply to one or more product and categories&#xD;
-Display a message instead of the button&#xD;
-Customized as per your needs.&#xD;
-This extension has been tested for compatibility with Community Edition 1.5 later in systems without additional extensions. The compatibility and behaviour is guaranteed for installations on clean code for the preceding versions.</notes>
-    <authors><author><name>Deepak mnakotia</name><user>deepakmankotia</user><email>deepakmankotiacse@gmail.com</email></author></authors>
-    <date>2015-07-04</date>
-    <time>06:12:45</time>
-    <contents><target name="magelocal"><dir name="Magegeeks"><dir name="Hideprice"><dir name="Helper"><file name="Data.php" hash="a1414beebeafcb9297673009fbf7b4cf"/></dir><dir name="Model"><file name="Observer.php" hash="3b430f9268337ece3ccf94e90dd80616"/></dir><dir name="etc"><file name="config.xml" hash="6f85cfa75e6ea05be2825f5dea5e5b87"/><file name="system.xml" hash="1fd4b5e862faa8de12fbeba6083f95fe"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="hideprice.xml" hash="a15e450407946e0c5651ec9ea83fc960"/></dir><dir name="template"><dir name="hideprice"><file name="addtocart.phtml" hash="27439bb0b9186b805bf0124fa9ed460f"/><dir name="compare"><file name="list.phtml" hash="cabf9da4fa8d70e0c42af1915763d296"/></dir><file name="list.phtml" hash="dff1dae14a856f117e36312ee513d4a1"/><file name="price.phtml" hash="97f903aa0a4a429dd08ad8fb4bc31754"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magegeeks_Hideprice.xml" hash="ba50aaeebca6fe8a0dcb04fe01aa8a13"/></dir></target></contents>
+    <summary>Hide Price and Add to Cart for Guests Users</summary>
+    <description>Many a times in an ecommerce website, we do not wish the guest users to know the price of the catalog products. The solution to this problem is rather easy. What we just need to do is first of all figure out where the product prices are shown. Then hide them from guest users. While we are at it we will also hide the &#x2018;Add to Cart&#x2019; and 'Product Price' buttons everywhere (for guest users). In magento by default price is shown on following places&#xD;
+&#xD;
+&#x2022; Category list page (where all the product of a category are listed).&#xD;
+&#x2022; Product view page (where product details are shown).&#xD;
+&#x2022; Compare pop up (where two or more products are compared side by side).&#xD;
+&#xD;
+Hide Product Price for Guest Users Magento Extension hides the product price for Non-Registered Users and show only for logged in users. Only registered users will be able to view the price and add to cart to checkout. Having this feature encourages users to register in the website, leading to more Customers versus Guests users.&#xD;
+Features:&#xD;
+&#xD;
+Encourages Customers to Log-in:&#xD;
+Blocks the Navigational users to view of the price of your products. Also, they cannot add any items to the Cart. Due to this, customers will be encouraged to login to get to know the price details&#xD;
+&#xD;
+Denies your competitors to know the Price of your Products&#xD;
+It denies your competitors access to the price by simply navigating around and doesn't dissipate the vital information on your products Price.&#xD;
+&#xD;
+Display customized messages instead of &#x201C;Add to Cart&#x201D;&#xD;
+Instead of just hiding &#x201C;Add to Cart&#x201D; button you can customize it. Just manage messages that would be displayed instead of price and &#x2018;Add to cart&#x2019; button. This will help you create a more personal approach and increase your revenue.</description>
+    <notes>Many a times in an ecommerce website, we do not wish the guest users to know the price of the catalog products. The solution to this problem is rather easy. What we just need to do is first of all figure out where the product prices are shown. Then hide them from guest users. While we are at it we will also hide the &#x2018;Add to Cart&#x2019; and 'Product Price' buttons everywhere (for guest users). In magento by default price is shown on following places&#xD;
+&#xD;
+&#x2022; Category list page (where all the product of a category are listed).&#xD;
+&#x2022; Product view page (where product details are shown).&#xD;
+&#x2022; Compare pop up (where two or more products are compared side by side).&#xD;
+&#xD;
+Hide Product Price for Guest Users Magento Extension hides the product price for Non-Registered Users and show only for logged in users. Only registered users will be able to view the price and add to cart to checkout. Having this feature encourages users to register in the website, leading to more Customers versus Guests users.&#xD;
+Features:&#xD;
+&#xD;
+Encourages Customers to Log-in:&#xD;
+Blocks the Navigational users to view of the price of your products. Also, they cannot add any items to the Cart. Due to this, customers will be encouraged to login to get to know the price details&#xD;
+&#xD;
+Denies your competitors to know the Price of your Products&#xD;
+It denies your competitors access to the price by simply navigating around and doesn't dissipate the vital information on your products Price.&#xD;
+&#xD;
+Display customized messages instead of &#x201C;Add to Cart&#x201D;&#xD;
+Instead of just hiding &#x201C;Add to Cart&#x201D; button you can customize it. Just manage messages that would be displayed instead of price and &#x2018;Add to cart&#x2019; button. This will help you create a more personal approach and increase your revenue.</notes>
+    <authors><author><name>Magegeeks</name><user>Magegeeks</user><email>deepakmankotiacse@gmail.com</email></author></authors>
+    <date>2016-02-26</date>
+    <time>05:00:42</time>
+    <contents><target name="magelocal"><dir name="Magegeeks"><dir name="Hideprice"><dir name="Helper"><file name="Data.php" hash="a1414beebeafcb9297673009fbf7b4cf"/></dir><dir name="Model"><file name="Observer.php" hash="3b430f9268337ece3ccf94e90dd80616"/></dir><dir name="etc"><file name="config.xml" hash="3559119a10438cf2ae9451154915abdc"/><file name="system.xml" hash="1fd4b5e862faa8de12fbeba6083f95fe"/></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Magegeeks_Hideprice.xml" hash="ba50aaeebca6fe8a0dcb04fe01aa8a13"/></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="hideprice.xml" hash="130520c1c873bd97776b1721b5f48235"/></dir><dir name="template"><dir name="hideprice"><file name="addtocart.phtml" hash="27439bb0b9186b805bf0124fa9ed460f"/><dir name="compare"><file name="list.phtml" hash="cabf9da4fa8d70e0c42af1915763d296"/></dir><file name="list.phtml" hash="dff1dae14a856f117e36312ee513d4a1"/><file name="price.phtml" hash="97f903aa0a4a429dd08ad8fb4bc31754"/></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>5.6.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

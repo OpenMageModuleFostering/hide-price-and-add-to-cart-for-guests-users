@@ -39,4 +39,9 @@
 		  <action method="setTemplate"><template>hideprice/compare/list.phtml</template></action>
 	    </reference>
 	</catalog_product_compare_index>
+	<catalogsearch_result_index>
+		<reference name="search_result_list">
+		  <action method="setTemplate"><template>hideprice/list.phtml</template></action>
+	    </reference>
+	</catalogsearch_result_index>
 </layout>

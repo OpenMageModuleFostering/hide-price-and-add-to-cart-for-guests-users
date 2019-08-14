@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Magegeeks_Hideprice>
-            <version>0.1.0</version> 
+            <version>1.1.0</version> 
         </Magegeeks_Hideprice>
     </modules>
     <global>
@@ -12,12 +12,12 @@
 			</hideprice>
 		</helpers>
 		<models>
-                            <magegeeks_hideprice>
-                                    <class>Magegeeks_Hideprice_Model</class>
-                                   
-                            </magegeeks_hideprice>
-             </models>
-		<events>
+                    <magegeeks_hideprice>
+                            <class>Magegeeks_Hideprice_Model</class>
+                           
+                    </magegeeks_hideprice>
+     </models>
+		<!-- <events>
 				<customer_login>
 				    <observers>
 				        <magegeeks_hideprice_observer>
@@ -27,7 +27,7 @@
 				        </magegeeks_hideprice_observer>
 				    </observers>
 				</customer_login>
-		 </events>
+		 </events> -->
 	</global>
 	   <frontend>
 		 <routers>

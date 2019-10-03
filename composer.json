@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Hide-Price-and-Add-to-Cart-for-Guests-Users",
+    "name": "OpenMageModuleFostering\/Hide-Price-and-Add-to-Cart-for-Guests-Users",
     "type": "magento-module",
     "license": "OSL-v1.0",
     "homepage": "",
     "description": "Hide Price and Add to Cart for Guests Users",
     "authors": [
-    {
-        "name": "Magegeeks",
-        "email": "deepakmankotiacse@gmail.com"
-    }
-],
+        {
+            "name": "Magegeeks",
+            "email": "deepakmankotiacse@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
